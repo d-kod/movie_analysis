@@ -177,7 +177,7 @@ If one language (e.g., English) overwhelmingly dominates the vote_count graph, i
 **8.3. Release Data Analysis**
 **Distribution of Movies released per year overtime**
 
-  ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/analysis_graphs/movies_released_per_year.png?raw=true)
+  ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/movies_released_per_year.png?raw=true)
 
   According to the graph above :
 
@@ -202,7 +202,7 @@ If one language (e.g., English) overwhelmingly dominates the vote_count graph, i
 ***Key Findings from the graph above***
 
 - Older films show broader rating variance, while newer films cluster mid-range (5–7).
-- Top-rated films (8+) appear sporadically across all eras—potential candidates for "timeless" classics.
+- Top-rated films (8+) appear sporadically across all eras potential candidates for "timeless" classics.
 
 
 
