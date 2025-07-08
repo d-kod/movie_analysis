@@ -20,3 +20,17 @@ The primary objectives of this analysis are:
 
 - Determine optimal release windows for movies.
 
+## Dataset
+This dataset was obtained from [Top Rated Movies Dataset](https://www.kaggle.com/datasets/khalidalam980/top-rated-movies-data-set). Contains various aspects of the movies collected that be used to classify. This data contains 9 columns and 9610 rows
+
+| Column Name               | Description                          | Data Type     |
+|---------------------------|--------------------------------------|---------------|
+|  Unnamed: 0               | Unnamed index column                 | int64
+|  id                       | Unique identifier for the movie      | int64
+|  original_language        | Original language of the movie       | object
+|  title                    | Title of the movie                   | oject
+|  overview                 | Brief summary or synopsis of the movie | object
+| popularity                | Popularity score of the movie        | float64
+| release_date              | Date when the movie was released     | object
+| vote_average              | Average rating of the movie          | float64
+| vote_count                | Numbers of votes received by the movie | int64
