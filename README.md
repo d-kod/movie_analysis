@@ -126,6 +126,20 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
  According to the graph above:
 - There is high density of movies with below 5000 vote count indicating low audience engagement likely due limited market
 - Increase of vote count (>10,000) decreases the density of points as fewer movies achieve extremely high numbers of votes giving an implication of mainstream succeess is rare
+
+  **8.2. Language Trends**
+  **Vote count distribution by original language**
+  Analyzed  the distribution of *vote_count* and *original_language* to reveal the dominant languages in the dataset.
+
+   ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/vote_count_by_language.png?raw=true)
+
+  This graph illustrates audience engagement, measured by total vote count, across different movie original languages.
+
+- ***English Dominance:*** Movies in English ('EN') overwhelmingly dominate the total vote count, indicating a significantly wider reach and audience participation compared to all other languages.
+
+- ***Tiered Engagement:*** Following English, languages like Japanese ('JA'), French ('FR'), Spanish ('ES'), and German ('DE') show the next highest levels of engagement, though their vote counts are substantially lower than English.
+
+- ***Implication:*** The chart highlights that English-language films capture the vast majority of audience interaction in terms of voting, suggesting their broader market presence.
   
   
 
