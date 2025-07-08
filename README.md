@@ -39,6 +39,7 @@ This dataset was obtained from [Top Rated Movies Dataset](https://www.kaggle.com
 The [main.ipynb](https://github.com/d-kod/movie_analysis/blob/main/code/main.ipynb) notebook follows a structured approach, encompassing several key stages of data analysis:
 
 **1. Import Libraries**
+
 Essential Python libraries for data manipulation, analysis, and visualization are imported, including:
 
 - numpy
@@ -50,9 +51,11 @@ Essential Python libraries for data manipulation, analysis, and visualization ar
 - seaborn
 
 **2. Importing Dataset**
+
 The [top_rated_movies.csv](https://github.com/d-kod/movie_analysis/blob/main/code/top_rated_movies.csv) file is read into a pandas DataFrame named movies.
 
 **3. Data Profiling**
+
 This section includes an initial examination of the dataset to understand its structure, content, and basic statistics. This involves:
 
 - Displaying the head of the DataFrame ___movies.head()___
@@ -66,6 +69,7 @@ This section includes an initial examination of the dataset to understand its st
 - Displaying column names ___movies.columns___
 
 **4. Data Cleaning**
+
 This crucial step addresses data quality issues:
 
 **Handling Duplicates:** The notebook checks for and confirms no duplicate rows exist ___movies.duplicated().sum()___
@@ -75,6 +79,7 @@ This crucial step addresses data quality issues:
 **Dropping Irrelevant Data:** Irrelevant columns such as 'Unnamed: 0' and 'overview' are dropped from the dataset -__movies.drop()___
 
 **5. Data Standardization**
+
 Data types and formats are standardized for consistency and usability:
 
 The 'release_date' column is converted to datetime objects ___pd.to_datetime()___
@@ -82,9 +87,11 @@ The 'release_date' column is converted to datetime objects ___pd.to_datetime()__
 The 'original_language' column is converted to uppercase for uniformity ___.str.upper()___
 
 **6. Feature Engineering**
+
 A new feature, _'weighted_rating'_, is added to the dataset, calculated by multiplying 'vote_average' and 'vote_count' ***movies['weighted_rating'] = movies['vote_average'] * movies['vote_count']***
 
 **7. New Dataset**
+
 The cleaned and engineered dataset is saved as a new CSV file named [movies.csv](https://github.com/d-kod/movie_analysis/blob/main/code/movies.csv)
 
 **8.  Exploratory Data Analysis (EDA)**
