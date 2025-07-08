@@ -175,6 +175,38 @@ It's possible to identify *"niche successes"* – languages that may not have a 
 If one language (e.g., English) overwhelmingly dominates the vote_count graph, it might suggest that conclusions drawn solely from the *average_vote_rating_by_language* for all languages might be heavily influenced by this dominant language. It encourages considering the weighted average or normalization if making broader cross-language comparisons.
 
 **8.3. Release Data Analysis**
+**Distribution of Movies released per year overtime**
+
+  ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/analysis_graphs/movies_released_per_year.png?raw=true)
+
+  According to the graph above :
+
+- ***Pre 2000:*** Gradual increase of movie production
+- ***2000-2020:*** There is rapid growth of movie production majorly due to digital globalization
+- ***2020-Present:*** There is a notable decline of movie production potenitally influenced by market saturation
+
+**Monthly Movie Releases**
+  
+   ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/monthly_movie_releases.png?raw=true)
+
+ ***Monthly Trends***
+
+- **Peak Release:** The highest number of movie releases occur in the latter half of the year, particularly September, October, and December, each seeing over 1000 new releases.
+- **Lowest Release:** January consistently has the fewest releases (around 570), followed by April and May.
+- **General Trend:** Releases generally build up from July onwards, peaking in the autumn and holiday seasons, then dip significantly at the start of the new year.
+
+**Movie vote average by release date (new vs old)**
+
+![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/movie_ratings_scatter_plot.png?raw=true)
+
+***Key Findings from the graph above***
+
+- Older films show broader rating variance, while newer films cluster mid-range (5–7).
+- Top-rated films (8+) appear sporadically across all eras—potential candidates for "timeless" classics.
+
+
+
+  
   
   
 
