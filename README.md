@@ -140,6 +140,8 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
 - ***Tiered Engagement:*** Following English, languages like Japanese ('JA'), French ('FR'), Spanish ('ES'), and German ('DE') show the next highest levels of engagement, though their vote counts are substantially lower than English.
 
 - ***Implication:*** The chart highlights that English-language films capture the vast majority of audience interaction in terms of voting, suggesting their broader market presence.
+
+- ko
   
   
 
