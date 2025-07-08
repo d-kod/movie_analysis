@@ -121,7 +121,7 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
 
  **Vote_count vs vote_average**
 
- ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/vote_count_vs_vote_average.png=true)
+ ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/vote_count_vs_vote_average.png?raw=true)
 
  According to the graph above:
 - There is high density of movies with below 5000 vote count indicating low audience engagement likely due limited market
