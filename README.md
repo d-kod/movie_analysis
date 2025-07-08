@@ -6,17 +6,17 @@ This project focuses on analyzing movie data to derive insights across various a
 ## Aim of the project
 The primary objectives of this analysis are:
 
-1. Movie Performance:
+**1. Movie Performance:**
 
-Identify top-performing movies.
+- Identify top-performing movies.
 
-Understand performance trends over time.
+- Understand performance trends over time.
 
-2. Content Strategy:
+**2. Content Strategy:**
 
-Analyze language and market focus to inform content decisions.
+- Analyze language and market focus to inform content decisions.
 
-3. Release Strategy Optimization:
+**3. Release Strategy Optimization:**
 
-Determine optimal release windows for movies.
+- Determine optimal release windows for movies.
 
