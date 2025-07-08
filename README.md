@@ -97,7 +97,7 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
 **8.  Exploratory Data Analysis (EDA)**
 
 **8.1. Movie Performance Trends**
-- **Distribution of Movie Ratings**
+ **Distribution of Movie Ratings**
   
   Analyzed  the distribution of *vote_average* frequency of the movies as shown below:
 
@@ -108,7 +108,7 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
 - most movies are rated between 6 and 7.5
 - there are less highly rated movies than very low rated movies
 
-- **Popularity vs vote_average**
+ **Popularity vs vote_average**
   
    Analyzed the distribution of *_vote_average_* and *_popularity_* to understand how movies are generally received.
 
@@ -119,7 +119,14 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
 - popularity in the mainstream in very rare
 - highly popular movies have an above vote average
 
-- **Vote_count vs vote_average**
+ **Vote_count vs vote_average**
+
+ ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/vote_count_vs_vote_average.png=true)
+
+ According to the graph above:
+- There is high density of movies with below 5000 vote count indicating low audience engagement likely due limited market
+- Increase of vote count (>10,000) decreases the density of points as fewer movies achieve extremely high numbers of votes giving an implication of mainstream succeess is rare
+  
   
 
 
