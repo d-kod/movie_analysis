@@ -143,7 +143,7 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
 
 - ***Implication:*** The chart highlights that English-language films capture the vast majority of audience interaction in terms of voting, suggesting their broader market presence.
 
-  **Average vote rating by language**
+**Average vote rating by language**
 
 ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/average_vote_rating_by_language.png?raw=true)
 
@@ -156,23 +156,25 @@ For example, if English (EN) movies have the highest vote_count, do they also ha
 
 - **Audience Engagement and Perceived Excellence:**
 
-Languages with a very high vote_count (e.g., English, as is often the case) indicate a broader audience reach and engagement.
+Languages with a very high *vote_count* (English, as is often the case) indicate a broader audience reach and engagement.
 
-However, a high vote_count doesn't automatically mean a high average_vote_rating. Some languages might have fewer movies or fewer total votes but exceptional average ratings, suggesting that the movies in that language, while perhaps less prolific globally, are highly regarded by their viewers.
+However, a high *vote_count* doesn't automatically mean a high *average_vote_rating*. Some languages might have fewer movies or fewer total votes but exceptional average ratings, suggesting that the movies in that language, while perhaps less prolific globally, are highly regarded by their viewers.
 
 - **Market Focus and Critical Reception:**
 
-The vote_count_by_language graph can give insights into the dominant markets or languages in the dataset, reflecting where most of the movies originate from or where they find their largest audience.
+The *vote_count_by_language* graph can give insights into the dominant markets or languages in the dataset, reflecting where most of the movies originate from or where they find their largest audience.
 
-The average_vote_rating_by_language graph, on the other hand, provides a look into the critical or audience reception of films from those different linguistic backgrounds.
+The *average_vote_rating_by_language* graph, on the other hand, provides a look into the critical or audience reception of films from those different linguistic backgrounds.
 
 - **Identifying Niche Successes:**
 
-It's possible to identify "niche successes" – languages that may not have a huge volume of movies or votes, but consistently deliver highly-rated films. This could indicate a dedicated fan base or a consistently high production quality within that language's film industry.
+It's possible to identify *"niche successes"* – languages that may not have a huge volume of movies or votes, but consistently deliver highly-rated films. This could indicate a dedicated fan base or a consistently high production quality within that language's film industry.
 
 - **Data Skew and Representativeness:**
 
-If one language (e.g., English) overwhelmingly dominates the vote_count graph, it might suggest that conclusions drawn solely from the average_vote_rating_by_language for all languages might be heavily influenced by this dominant language. It encourages considering the weighted average or normalization if making broader cross-language comparisons.
+If one language (e.g., English) overwhelmingly dominates the vote_count graph, it might suggest that conclusions drawn solely from the *average_vote_rating_by_language* for all languages might be heavily influenced by this dominant language. It encourages considering the weighted average or normalization if making broader cross-language comparisons.
+
+**8.3. Release Data Analysis**
   
   
 
