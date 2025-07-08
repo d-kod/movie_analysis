@@ -101,11 +101,25 @@ The cleaned and engineered dataset is saved as a new CSV file named [movies.csv]
   Analyzed  the distribution of *vote_average* frequency of the movies as shown below:
 
   ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/distribution_of_movie_ratings.png?raw=true)
+
+  According to the graph above:
+
+- most movies are rated between 6 and 7.5
+- there are less highly rated movies than very low rated movies
+
+- **Popularity vs vote_average**
+   Analyzed the distribution of *_vote_average_* and *_popularity_* to understand how movies are generally received.
+
+   ![Alt Text](https://github.com/d-kod/movie_analysis/blob/main/analysis_graphs/analysis_graphs/popularity_vs_vote_average.png?raw=true)
+
+  According to the graph above:
+
+- popularity in the mainstream in very rare
+- highly popular movies have an above vote average
+
+- **Vote_count vs vote_average**
   
 
-We analyzed the distribution of _vote_average_ and _popularity_ to understand how movies are generally received.
 
-* The average _vote_average_ across all movies is around [Your Average Score], with a noticeable number of highly-rated films despite a long tail of lower-rated ones.
-* Popularity scores vary widely, indicating a few highly popular movies and many with lower engagement.
 
 
