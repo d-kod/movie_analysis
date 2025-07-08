@@ -95,7 +95,7 @@ A new feature, _'weighted_rating'_, is added to the dataset, calculated by multi
 The cleaned and engineered dataset is saved as a new CSV file named [movies.csv](https://github.com/d-kod/movie_analysis/blob/main/code/movies.csv)
 
 **8.  Exploratory Data Analysis (EDA)**
-### 8.1. Movie Performance Trends
+**8.1. Movie Performance Trends**
 
 We analyzed the distribution of `vote_average` and `popularity` to understand how movies are generally received.
 
