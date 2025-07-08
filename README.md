@@ -72,19 +72,19 @@ This section includes an initial examination of the dataset to understand its st
 
 This crucial step addresses data quality issues:
 
-**Handling Duplicates:** The notebook checks for and confirms no duplicate rows exist ___movies.duplicated().sum()___
+- **Handling Duplicates:** The notebook checks for and confirms no duplicate rows exist ___movies.duplicated().sum()___
 
-**Handling Missing Values:** Missing values are identified, specifically 2 missing values in the 'overview' column ___movies.isna().sum()___
+- **Handling Missing Values:** Missing values are identified, specifically 2 missing values in the 'overview' column ___movies.isna().sum()___
 
-**Dropping Irrelevant Data:** Irrelevant columns such as 'Unnamed: 0' and 'overview' are dropped from the dataset -__movies.drop()___
+- **Dropping Irrelevant Data:** Irrelevant columns such as 'Unnamed: 0' and 'overview' are dropped from the dataset -__movies.drop()___
 
 **5. Data Standardization**
 
 Data types and formats are standardized for consistency and usability:
 
-The 'release_date' column is converted to datetime objects ___pd.to_datetime()___
+- The 'release_date' column is converted to datetime objects ___pd.to_datetime()___
 
-The 'original_language' column is converted to uppercase for uniformity ___.str.upper()___
+- The 'original_language' column is converted to uppercase for uniformity ___.str.upper()___
 
 **6. Feature Engineering**
 
